@@ -1,0 +1,30 @@
+@media (max-width: 1100px){
+    .nav_menu_container{
+        display: none;
+        
+        
+    }
+    .nav_menu{
+        gap: 15px;
+    }
+    .nav_hamburger{
+        display: block;
+        order: 2;
+    }
+    .nav_content{
+        width: auto;
+        
+    }
+}
+
+
+
+
+@media (max-width:500px){
+    .login2{
+        display: none;
+    }
+    .nav_menu{
+        gap: 25px;
+    }
+}
