@@ -4,17 +4,12 @@
         
         
     }
-    .nav_menu{
-        gap: 15px;
-    }
+  
     .nav_hamburger{
         display: block;
-        order: 2;
-    }
-    .nav_content{
-        width: auto;
         
     }
+ 
 }
 
 
@@ -24,7 +19,5 @@
     .login2{
         display: none;
     }
-    .nav_menu{
-        gap: 25px;
-    }
+   
 }

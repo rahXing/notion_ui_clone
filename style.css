@@ -23,7 +23,7 @@
   font-family: 'Inter';
 
 }
-nav, .nav_content , .nav_menu,.nav_menu_container,.login{
+nav ,.nav_menu_container,.login{
 
   display: flex;
   justify-content: center;
@@ -36,28 +36,14 @@ nav{
   max-width: 1800px;
   padding: 15px 0px;
 }
-.nav_logo{
-  
-  
 
-}
-.nav_content{
-   
-}
 .nav_hamburger{
   display: none;
 }
-.nav_menu{
- 
-  
- gap: 50px;
-  justify-content: space-between;
- 
 
-}
 .nav_menu_container{
-  width: 700px;
-  gap: 30px;
+  /* width: 700px; */
+  gap: 35px;
   
 }
 .login{
