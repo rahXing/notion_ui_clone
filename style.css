@@ -115,7 +115,7 @@ nav{
 .hero_brands{
   max-width: 1400px;
   width: 90vw;
-  margin: auto;
+  margin: 24px auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -138,4 +138,88 @@ nav{
 }
 .brand_logos img{
   width: 80px;
+}
+
+
+/* info cards */
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 24px;
+    max-width: 1400px;
+    margin: auto;
+    width: 90vw;
+    justify-items: center;
+    
+}
+    
+.div1,.div2,.div4,.div5{
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+ 
+  width:clamp(450px,45vw,600px);
+}
+.div1{
+  background-color:#fef3f1 ;
+}
+.div2{
+  background-color: #f2f9ff;
+}
+.div3 {
+  border-radius: 16px;
+  background-color: #fff5e0;
+  width: 90vw;
+  height: auto;
+  max-width: 1400px;
+  margin: auto;
+    grid-column: span 2 / span 2;
+    grid-row-start: 2;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div4 {
+  background-color: #fcfbfb;
+    grid-row-start: 3;
+}
+
+.div5 {
+  background-color: #f2fafa;
+    grid-row-start: 3;
+    
+}
+.heading{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 24px 0px 0px 24px;
+  gap: 10px;
+}
+.parent h1{
+  font-size: 28px;
+  padding:0px 0px 24px 24px;
+}
+.heading img{
+  width:28px;
+  height: 28px;
+  
+}
+.heading3{
+  display: flex;
+  align-items: center;
+  padding: 0px 0px 0px 24px;
+  gap:10px
+}
+.heading3 img{
+  width: 28px;
+  height: 28px;
+}
+.div3_image{
+  width: 600px;
+}
+.div3_text{
+  padding: 24px;
 }
