@@ -9,7 +9,47 @@
         display: block;
         
     }
+
+    .hero{
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero_text{
+        order: 2;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero_text h1{
+        text-align: center;
+        font-size: 54px;
+    }
+    .hero p{
+        text-align: center;
+    }
+    .hero_brands{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .brand_logos{
+        gap: 10px;
+        justify-content: center;
+    }
  
+}
+
+
+@media (max-width:700px)
+{
+.hero_text{
+    min-width: 450px;
+
+}
+.hero_text h1{
+    font-size: 42px;
+}
+
 }
 
 
@@ -19,5 +59,29 @@
     .login2{
         display: none;
     }
-   
+    .hero{
+        height: auto;
+    }
+    .hero_image img{
+         width: clamp(268px,80vw,400px);
+        
+    }
+    .hero_text{
+         width: clamp(268px,80vw,400px);
+         min-width: unset;
+       
+    }
+    .hero_text p{
+        font-size: 16px;
+    }
+   .hero_buttons{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    gap: 12px;
+
+   }
+   .brand_logos img:nth-child(5), .brand_logos img:nth-child(6){
+    display: none;
+   }
 }
