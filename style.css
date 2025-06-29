@@ -247,3 +247,180 @@ nav{
 }
 
 /* forbes */
+.forbes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin:80px auto;
+  width: 90vw;
+  max-width: 1400px;
+  gap: 20px;
+}
+.forbes h1{
+  text-align: center;
+  font-weight: 100;
+  font-size: 42px;
+ 
+
+}
+.forbes img{
+  width: 80px;
+  height: 20px;
+}
+
+
+/* space */
+
+.space{
+  width: 90vw;
+  max-width: 1400px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.space h1{
+  text-align: center;
+  font-size: 54px;
+}
+.space_lists{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #00000096;
+  
+  row-gap: 0px;
+  column-gap: 30px;
+  flex-wrap: wrap;
+}
+.space_items{
+  padding: 4px 12px;
+  font-size: 14px;
+}
+.space img{
+  width: 100%;
+}
+.space img:nth-of-type(2){
+  display: none;
+}
+.space_items:hover{
+  color: #191918;
+  background-color: #0000001a;
+  padding: 4px 12px;
+  border-radius: 30px;
+  /* box-sizing: content-box; */
+}
+
+
+/* customer stories */
+.cs{
+  width: 90vw;
+  max-width: 1400px;
+  margin: auto;
+  background-color: #f6f5f4;
+  display: flex;
+  flex-direction: column;
+  border-radius: 24px;
+  margin-bottom: 30px;
+  gap: 100px;
+  padding: 64px;
+}
+.cs1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+
+}
+.cs1_text{
+  max-width: 730px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.cs1_text img{
+  width: 130px;
+}
+.cs1_text p{
+  font-size: 42px;
+
+}
+.cs1_image{
+  min-width: 240px;
+  max-width: 350px;
+  width: 30%;
+  border-radius: 24px;
+}
+.cs2_1{
+  display: flex;
+  justify-content: space-between;
+
+  gap: 30px;
+}
+.cs2_1_container{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+ width: 350px;
+}
+
+
+.footer {
+  width: 90vw;
+  margin: auto;
+  max-width: 1400px;
+  background: #fff;
+  padding: 40px;
+  font-family: sans-serif;
+  color: #000;
+}
+.footer_top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+}
+.footer_logo_socials {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer_socials{
+  display: flex;
+}
+.footer_socials span {
+  margin-right: 10px;
+  cursor: pointer;
+}
+.footer_links {
+  display: flex;
+
+  
+  flex-wrap: wrap;
+  gap: 60px;
+}
+.footer_links h4 {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.footer_links p {
+  font-size: 14px;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+.footer_links div{
+  width: 110px;
+}
+.disclaimer{
+  width: 90vw;
+  margin: auto;
+  max-width: 1400px;
+  font-size: 14px;
+  color: gray;
+  padding: 50px;
+}

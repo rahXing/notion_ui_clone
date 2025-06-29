@@ -75,7 +75,43 @@
 .div5 {
     grid-row-start: 5;
 }
-        
+.forbes h1{
+    font-size: 32px;
+}
+.space h1{
+    font-size: 42px;
+}
+.cs{
+    padding: 32px 24px;
+    gap: 50px;
+}
+.cs1{
+    flex-direction: column;
+    gap: 50px;
+}
+.cs1_image{
+    width: 90%;
+    max-width: unset;
+}
+.cs1_text{
+    max-width: unset;
+    width: 90%;
+}
+.cs1_text p{
+    font-size: 32px;
+}
+.cs2_1{
+    width: 90%;
+    margin: auto;
+    gap: 36px;
+}
+.cs2_2{
+    display: none;
+}   
+.cs2_1{
+    flex-direction: column;
+
+}
  
 }
 
@@ -88,6 +124,19 @@
 }
 .hero_text h1{
     font-size: 42px;
+}
+.forbes h1{
+    font-size: 26px;
+}
+.space img:nth-of-type(2){
+  display: block;
+  
+}
+.space img:nth-of-type(1){
+  display: none;
+}
+.cs1_text p{
+    font-size: 22px;
 }
 
 }
@@ -138,4 +187,26 @@
     display: block;
    }
 
+   .space h1{
+    font-size: 32px;
+   }
+ .cs2_1_container p{
+    font-size: 14px;
+ }
+.cs2_1_container{
+    width: 80%;
+}
+.cs{
+    gap: 24px;
+}
+.cs1{
+    gap: 24px;
+}
+.cs1_image{
+    border-radius: 12px;
+}
+.footer_links{
+    gap: 10px;
+    
+}
 }
