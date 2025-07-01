@@ -466,6 +466,7 @@ width: 48px;
 }
 .about2_container img{
   width: 50%;
+  border-radius: 8px;
 }
 
 
