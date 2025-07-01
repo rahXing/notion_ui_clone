@@ -112,7 +112,21 @@
     flex-direction: column;
 
 }
- 
+ .about{
+    flex-direction: column;
+ }
+ .about2_container img{
+    display: none;
+ }
+ .about1,.about2{
+     width: 90vw;
+  margin: auto;
+  max-width: 1400px;
+ }
+ .about2_container{
+    height: auto;
+    padding: 24px;
+ }
 }
 
 
